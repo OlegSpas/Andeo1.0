@@ -19,14 +19,16 @@
                         </div>
                         <div class="main-menu">
                             <nav>
-                                <ul>
+                                <ul class="header-menu">
                                     <li><a href="#">Benefits</a></li>
                                     <li><a href="#">Target</a></li>
                                     <li><a href="#">Users</a></li>
                                     <li><a href="#">Numbers</a></li>
                                 </ul>
+                                <button class="menu-open">
+                                    <img src="img/menu.png" height="50px" alt="Open menu">
+                                </button>
                             </nav>
-                            <a href="#" class="btn-menu"><span></span></a>
                         </div>
                         <div class="btn-be_part">
                             <a href="#">Be part</a>
@@ -260,40 +262,44 @@
                     </div>
                     <div class="main-live-content">
                         <div class="live-card-list">
-                            <div class="live-card">
-                                <div class="img-live-card">
-                                    <img src="./img/employees.png" alt="Delovepers">
+                            <div class="card-pair">
+                                <div class="live-card">
+                                    <div class="img-live-card">
+                                        <img src="./img/employees.png" alt="Delovepers">
+                                    </div>
+                                    <div class="about-live-card">
+                                        <h5>Tech employees</h5>
+                                        <p>Developers, Analysts, Marketers, Designers, Consultants, Others.</p>
+                                    </div>
                                 </div>
-                                <div class="about-live-card">
-                                    <h5>Tech employees</h5>
-                                    <p>Developers, Analysts, Marketers, Designers, Consultants, Others.</p>
-                                </div>
-                            </div>
-                            <div class="live-card">
-                                <div class="img-live-card">
-                                    <img src="./img/executives.png" alt="Delovepers">
-                                </div>
-                                <div class="about-live-card">
-                                    <h5>Tech executives</h5>
-                                    <p>CEOs, CTOs, CMOs, CFOs that can work remotely with their entire team.</p>
-                                </div>
-                            </div>
-                            <div class="live-card">
-                                <div class="img-live-card">
-                                    <img src="./img/investors.png" alt="Delovepers">
-                                </div>
-                                <div class="about-live-card">
-                                    <h5>Investors</h5>
-                                    <p>Companies and persons that invest in other tecnological companies.</p>
+                                <div class="live-card">
+                                    <div class="img-live-card">
+                                        <img src="./img/executives.png" alt="Delovepers">
+                                    </div>
+                                    <div class="about-live-card">
+                                        <h5>Tech executives</h5>
+                                        <p>CEOs, CTOs, CMOs, CFOs that can work remotely with their entire team.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="live-card">
-                                <div class="img-live-card">
-                                    <img src="./img/ceos.png" alt="Delovepers">
+                            <div class="card-pair">
+                                <div class="live-card">
+                                    <div class="img-live-card">
+                                        <img src="./img/investors.png" alt="Delovepers">
+                                    </div>
+                                    <div class="about-live-card">
+                                        <h5>Investors</h5>
+                                        <p>Companies and persons that invest in other tecnological companies.</p>
+                                    </div>
                                 </div>
-                                <div class="about-live-card">
-                                    <h5>Retired CEOs</h5>
-                                    <p>Persons that want to live in a relaxed enviroment but being updated.</p>
+                                <div class="live-card">
+                                    <div class="img-live-card">
+                                        <img src="./img/ceos.png" alt="Delovepers">
+                                    </div>
+                                    <div class="about-live-card">
+                                        <h5>Retired CEOs</h5>
+                                        <p>Persons that want to live in a relaxed enviroment but being updated.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +321,7 @@
                         <div class="small-sectitl-triangle triangle"></div>
                         <h2>How can I be part of this?</h2>
                     </div>
-                    <div class="main-staff_content">
+                    <div class="main-staff_content right-content">
                         <div class="img-staff-content">
                             <div class="mov_ch mov_ch__for_st_all-sm-triangle"></div>
                             <div class="mov_ch mov_ch__for_st_white-sm-triangle"></div>
@@ -357,7 +363,7 @@
         <section id="staff">
             <div class="container">
                 <div class="staff-content">
-                    <div class="main-staff_content">
+                    <div class="main-staff_content left-content">
                         <div class="text-content_staff">
                             <div class="about-staff-person">
                                 <h3>I’m an <span class="af-title">owner</span></h3>
@@ -398,8 +404,8 @@
         </section>
         <section id="staff">
             <div class="container">
-                <div class="staff-content">
-                    <div class="main-staff_content">
+                <div class="staff-content ">
+                    <div class="main-staff_content right-content">
                         <div class="img-staff-content">
                             <div class="mov_ch mov_ch__for_st_all-sm-triangle"></div>
                             <div class="mov_ch mov_ch__for_st_white-sm-triangle"></div>
@@ -542,5 +548,8 @@
             </div>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/gambmenu.js"></script>
 </body>
 </html>
